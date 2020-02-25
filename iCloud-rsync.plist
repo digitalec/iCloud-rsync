@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>com.digitalec.icloudrsync</string>
+        <key>Program</key>
+        <string>/usr/local/bin/rsync</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>-avP</string>
+            <string>--delete</string>
+            <string>--log-file=LOG_FILE_PATH</string>
+            <string>~/Library/Mobile\ Documents/com~apple~CloudDocs/</string>
+            <string>BACKUP_PATH</string>
+        <key>StartCalendarInterval</key>
+        <dict>
+            <key>Hour</key>
+            <integer>0</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <key>StandardOutPath</key>
+        <string>STDOUT_PATH</string>
+        <key>StandardErrorPath</key>
+        <string>STDERR_PATH</string>
+    </dict>
+</plist>
