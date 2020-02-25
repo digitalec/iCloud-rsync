@@ -1,5 +1,5 @@
 # iCloud-rsync
-Launchd.plist to automatically backup iCloud Drive to external location
+Launchd plist to automatically backup iCloud Drive to external location
 
 #### Usage
 * `BACKUP_PATH` - The path where the backup of iCloud Drive will be stored
